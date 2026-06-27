@@ -32,6 +32,8 @@ function App() {
         <Route path="/income" element={<AddIncome />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
+  <Route path="/" element={<Home />} />
+  
 <Route path="/signup" element={<Register />} />
       </Routes>
     </BrowserRouter>
